@@ -29,7 +29,7 @@ Alternatively you can also install the griddb c client directly (without adding 
 #### Execute a sample program
 GridDB server need to be started in advance.
 
-    $ wget https://github.com/griddb/c_client/blob/master/client/c/sample/sample1.c
+    $ wget https://raw.githubusercontent.com/griddb/c_client/master/client/c/sample/sample1.c
     $ gcc sample1.c -lgridstore
     $ ./a.out <GridDB notification address(default is 239.0.0.1)> <GridDB notification port(default is 31999)>
       <GridDB cluster name> <GridDB user> <GridDB password>
